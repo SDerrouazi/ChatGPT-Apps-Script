@@ -6,3 +6,8 @@ Script to execute ChatGPT in a Google Spreadsheet
 3. On your sheet, use `getChatGPTResponse(my-cell)` like `getChatGPTResponse(A1)` and press `Enter`.
 
 You can find your Api Key on : https://platform.openai.com/account/api-keys
+
+API Doc : https://platform.openai.com/docs/api-reference/introduction
+
+You can add instructions before your question if you change value of `prompt` variable.
+Check instruction in the code.
