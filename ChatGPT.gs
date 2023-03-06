@@ -7,7 +7,7 @@ function getChatGPTResponse(input) {
   // Input contain your question from your Google Spreadsheet
   var prompt = input;
 
-  /* You can learn more abouts models on : platform.openai.com/docs/models */
+  // You can learn more abouts models on : platform.openai.com/docs/models
   var response = UrlFetchApp.fetch(apiUrl, {
     method: "POST",
     headers: {
